@@ -1,18 +1,17 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
-import { NavigatorContainer, useNavigation } from '@react-navigation/native';
+import { NavigationContainer, useNavigation } from '@react-navigation/native';
 
 import AuthNavigator from './navigation/AuthNavigator';
 
 
 const App = () => {
     return (
-        <NavigatorContainer>
+        <NavigationContainer>
             <AuthNavigator />
-        </NavigatorContainer>
+        </NavigationContainer>
     );
 };
 
-export default App;
- 
+export default App; 
 
